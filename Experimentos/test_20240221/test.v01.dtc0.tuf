@@ -1,0 +1,3500 @@
+*
+-1		0		10000		0		0		IPP 0
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 1
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 2
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 3
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 4
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 5
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 6
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 7
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 8
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 9
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 10
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 11
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 12
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 13
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 14
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 15
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 16
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 17
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 18
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 19
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 20
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 21
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 22
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 23
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 24
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 25
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 26
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 27
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 28
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 29
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 30
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 31
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 32
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 33
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 34
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 35
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 36
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 37
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 38
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 39
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 40
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 41
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 42
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 43
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 44
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 45
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 46
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 47
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 48
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 49
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 50
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 51
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 52
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 53
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 54
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 55
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 56
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 57
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 58
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 59
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 60
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 61
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 62
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 63
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 64
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 65
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 66
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 67
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 68
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 69
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 70
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 71
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 72
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 73
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 74
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 75
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 76
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 77
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 78
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 79
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 80
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 81
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 82
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 83
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 84
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 85
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 86
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 87
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 88
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 89
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 90
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 91
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 92
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 93
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 94
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 95
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 96
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 97
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 98
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp
+*
+-1		0		10000		0		0		IPP 99
+-2		1		0		2		1		Datatype
+-2		2		0		3		1		Modegroup
+-2		3		0		4		0		NsPulse high word
+-2		4		0		5		980		  NsPulse low word
+-2		5		0		6		0x00C0		Code MSW
+-2		6		0		7		0xFF03		Code 
+-2		7		0		8		0x0303		Code 
+-2		8		0		9		0x0CF3		Code LSW
+12		1		5		0		0		Beam code trigger
+11		15		5		0		0		Load header/sync Rx
+7		200		9800		0		0		Data window, 980 samples
+0		401		850		0		0		AEU T/R
+10		408		843		0		0		UC T/R
+13		408		843		0		0		DC T/R
+-2		410		0		0		1		Tx profile 1
+5		440		30		0		0		phase 1 
+5		470		30		0		0		phase 2 
+5		500		30		0		0		phase 3 
+5		650		30		0		0		phase 8 
+5		680		30		0		0		phase 9 
+5		710		30		0		0		phase 10 
+5		770		30		0		0		phase 12 
+5		800		30		0		0		phase 13 
+5		830		30		0		0		phase 14 
+5		890		30		0		0		phase 16 
+5		920		30		0		0		phase 17 
+5		950		30		0		0		phase 18 
+5		1010		30		0		0		phase 20 
+5		1040		30		0		0		phase 21 
+5		1100		30		0		0		phase 23 
+5		1190		30		0		0		phase 26 
+-2		1250		0		0		0		Tx profile 0, zero phase
+-9		0		0		0		0		end of ipp

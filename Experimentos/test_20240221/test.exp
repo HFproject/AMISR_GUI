@@ -1,0 +1,60 @@
+[File] 
+ Name=test.v01
+ Description=Experiment, 10000 us IPP with 840 us pulse and 10 repeats per SYNC
+
+[Log Info]
+Users= SRI (M. Nicholls) and JRO (D. Scipion)
+Purpose=Pulse to pulse coded pulse
+Comment=Version v01
+
+[Common Parameters]
+npulsesint=399
+recordsperfile=10
+
+[copy files]
+
+[include data]
+
+[Hosts]
+DTC0=Minimum peak sidelobe code
+APS=Array Proxy
+
+[Modes]
+0=raw
+
+[Common Mode:0]
+beamcodefile=test.v01.bco
+nbeamcodes=10
+
+[DTC0 Mode:0]
+writedisplayrecord=0
+modes=raw
+RxAttenuation=0
+txenabled=1
+tufile= test.v01.dtc0.tuf
+rxconfig= blackman_01.00usec_020505_20.0.rxc
+headerenable= 1
+maxsamples=980
+PulseWidth=840
+baud=28
+txbaud=30
+codelength=84
+rangecorrection=2066.469860
+CollectStatistics=0
+RxBand=445
+TxBand=445
+txfrequency=tx0frequency1
+
+[DTC0 Mode:0,raw]
+displayexclude=1
+name=Data
+mode=raw11
+datatype=1
+modegroup=1
+indexsample=0
+ngates=980
+firstrange= -33750
+
+[dtc0] 
+internaltrig=0
+
