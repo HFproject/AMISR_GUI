@@ -1,3 +1,8 @@
+###################################
+#    Engineer: Vanessa Vasquez 2024
+#    Jicamarca Radio Observatory
+###################################
+
 # ------------------------------------------------------
 # ---------------------- main.py -----------------------
 # ------------------------------------------------------
@@ -28,7 +33,7 @@ path_m = os.getcwd()
 path_m = path_m.split('/')
 path_m="/".join(path_m[:-1])+"/Experimentos"
 sys.path.append(path_m)
-import GUI_genExp_AMISR
+from GUI_genExp_AMISR import *
 #sys.path.insert(1,'/home/soporte/app-amisr/realtime_web/volumes/app')
 #from app.utils import *
 import TimeTools
@@ -73,7 +78,9 @@ class MatplotlibWidget(QMainWindow):
         self.pushButton_del.clicked.connect(self.delete_point)
         self.pushButton_GEN_EXP.clicked.connect(self.set_experiment)
         self.pushButton_addbeam.clicked.connect(self.add_button)
-        #Fecha actual
+        self.pushButton_close.clicked.connect(self.salida)
+        self.pushButton_send_exp.clicked.connect(self.send_exp)
+        
         self.addToolBar(NavigationToolbar(self.MplWidget.canvas, self))
         
         qpixmap = QPixmap("amisr-logo.png")
@@ -107,7 +114,6 @@ class MatplotlibWidget(QMainWindow):
         cont = 0
         for item in self.tableWidget_lista.selectedItems():
             
-            #print("item:",item.text(),type(item.text()))
             if cont == 0:azi_new = float(item.text())
             elif cont == 2:ele_new = float(item.text())
             cont +=1
@@ -180,8 +186,19 @@ class MatplotlibWidget(QMainWindow):
         
         user = self.lineEdit_User.text()
         
-        op = GUI_genExp_AMISR.Parametros(Title,pps,ipp,nTxA,sCode,ncode,nbaud,ndh,nsa,nProfBlock,nBlockFile,sbeam,files,user)
-        GUI_genExp_AMISR.Generate_Experiments(op)
+        #op = GUI_genExp_AMISR.Parametros(Title,pps,ipp,nTxA,sCode,ncode,nbaud,ndh,nsa,nProfBlock,nBlockFile,sbeam,files,user)
+        #GUI_genExp_AMISR.Generate_Experiments(op)
+        #print(GUI_genExp_AMISR.Generate_Experiments.path_experiment)
+        op = Parametros(Title,pps,ipp,nTxA,sCode,ncode,nbaud,ndh,nsa,nProfBlock,nBlockFile,sbeam,files,user)
+        self.experimentos= Generate_Experiments(op)
+
+    def send_exp(self):
+        
+        self.path_exp = self.experimentos.path_experiment
+        ruta = "scp -r %s soporte@%s:/home/soporte/Downloads"%(self.path_exp,self.experimentos.IP)
+        print(ruta)
+        os.system(ruta)
+
     
     def add_button(self):
 
@@ -201,6 +218,9 @@ class MatplotlibWidget(QMainWindow):
             b=b+","+i
 
         self.lineEdit_SBeam.setText(b[1:])
+
+    def salida(self):
+        exit()
 
     def reset(self):
         self.xcos = []
@@ -226,25 +246,27 @@ class MatplotlibWidget(QMainWindow):
         nptsx = 101
         nptsy = 101
 
+
+
         path4plotname = ''
         self.mesg = ''
         plotname0 = ''
         ptitle= 'AMISR 14'
         ######################## AMISR values
-        alfa = 0.1*numpy.pi/180
-        th = 0.0977
+        alfa  = 0.1*numpy.pi/180
+        th    = 0.0977
         theta = th*numpy.pi/180
-        sina = numpy.sin(alfa)
-        cosa = numpy.cos(alfa)
-        MT1 = numpy.array([[1,0,0],[0,cosa,-sina],[0,sina,cosa]])
-        sinb = numpy.sin(theta)
-        cosb = numpy.cos(theta)
-        MT2 = numpy.array([[cosb,sinb,0],[-sinb,cosb,0],[0,0,1]])
-        MT3 = numpy.array(numpy.dot(MT2, MT1)).transpose()
+        sina  = numpy.sin(alfa)
+        cosa  = numpy.cos(alfa)
+        MT1   = numpy.array([[1,0,0],[0,cosa,-sina],[0,sina,cosa]])
+        sinb  = numpy.sin(theta)
+        cosb  = numpy.cos(theta)
+        MT2   = numpy.array([[cosb,sinb,0],[-sinb,cosb,0],[0,0,1]])
+        MT3   = numpy.array(numpy.dot(MT2, MT1)).transpose()
 
-        xg = numpy.dot(MT3.transpose(),numpy.array([1,0,0]))
-        yg = numpy.dot(MT3.transpose(),numpy.array([0,1,0]))
-        zg = numpy.dot(MT3.transpose(),numpy.array([0,0,1])) 
+        xg    = numpy.dot(MT3.transpose(),numpy.array([1,0,0]))
+        yg    = numpy.dot(MT3.transpose(),numpy.array([0,1,0]))
+        zg    = numpy.dot(MT3.transpose(),numpy.array([0,0,1])) 
 
         glat = -11.953371
         glon = -76.874913
@@ -283,6 +305,10 @@ class MatplotlibWidget(QMainWindow):
         if plot == True:
             self.only_points(self.xcos,self.ycos)
         self.MplWidget.canvas.mpl_connect('button_press_event', self.on_click)
+
+        if self.MplWidget.canvas.axes.can_zoom():
+            print("Ingreso al ZOOM")
+            print(self.MplWidget.canvas.axes.can_zoom())
         #plt.show()
         # .clear()
         # self.MplWidget.canvas.axes.plot(t, cosinus_signal)
@@ -290,7 +316,6 @@ class MatplotlibWidget(QMainWindow):
         #self.MplWidget.canvas.axes.legend(('cosinus', 'sinus'),loc='upper right')
         #self.MplWidget.canvas.axes.set_title('Cosinus - Sinus Signal')
         self.MplWidget.canvas.draw()     
-
 
     def PlotApuntes(self,jd=2452640.5,ra_obs=None,xg=None, yg=None,x=None,y=None,
                     allAmisr_x=[],allAmisr_y=[]):

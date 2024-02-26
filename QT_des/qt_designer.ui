@@ -653,7 +653,7 @@
      <widget class="QPushButton" name="pushButton_GEN_EXP">
       <property name="geometry">
        <rect>
-        <x>430</x>
+        <x>300</x>
         <y>420</y>
         <width>151</width>
         <height>41</height>
@@ -732,6 +732,45 @@
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_send_exp">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>420</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SEND EXP.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_close">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>484</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CLOSE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>420</y>
+        <width>391</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
@@ -741,7 +780,7 @@
      <x>0</x>
      <y>0</y>
      <width>1098</width>
-     <height>25</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSELECCION_DE_APUNTES_DINAMICOS">
