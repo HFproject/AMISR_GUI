@@ -1,8 +1,14 @@
+###################################
+#    Engineer: Vanessa Vasquez 2024
+#    Jicamarca Radio Observatory
+###################################
+
 import datetime
 import os
 import numpy as np
 import scipy.io
 from matplotlib import pyplot as plt
+
 
 def insert_code(tuf=None,tx_start=0,sCode=None, nbaud=0, ncode=0, tx_baud=0):
  # Missing ncode, now is just for 1 code input, MISSING for multiple codes
@@ -35,29 +41,6 @@ def rangecorrect(rangepath=None, sampletime=0, off=0):
     print("corr = {}".format(corr))
     return corr
 
-# variables a modificar
-# rutas y nombres de archivos
-''' 
-mainpath = os.getcwd()
-rangepath = os.path.join(mainpath,"offsets/" )
-print (mainpath,rangepath)
-#sExpName = 'winds'
-
-sExpName = 'ISR_1Beam_Faraday_11_23_v5'
-
-# rxc_filename = 'blackman_01.00usec_020505_20.0.rxc'     #Meteors
-rxc_filename = 'blackman_10.00usec_051010_20.0.rxc'     #ESF, ISR_5
-
-#rxc_filename = 'blackman_05.00usec_020525_20.0.rxc'    #EEJ, ISR
-
-a = datetime.date.today()
-date = a.strftime("%Y%m%d")
-print(date)
-path = mainpath+'/' + sExpName +'_' + date
-if not (os.path.exists(path)):
-    print("creating path...",path)
-    os.mkdir(path)
-'''
 # ##################################################################
 # ##################################################################
 class Parametros():
@@ -98,6 +81,7 @@ class Generate_Experiments():
         self.nProfBlock   =  param.nProfBlock #600  #multiplo de los canales e ipps
         self.nBlockFile   =  param.nBlockFile #10 #
         self.file         =  param.file
+        self.IP           =  "10.10.20.30"
 
         sbeam             =  param.sbeam #[ '0xF923'] 
         nbeam             =  len(sbeam)
@@ -120,11 +104,11 @@ class Generate_Experiments():
         # ##################################################################
         # tiempos predeterminados de AMISR
         samp_start = 200 #wind=400, else = 200,  meteors = 810
-        aeu_start = 401
-        uc_start = 408
-        dc_start = 408
-        tx_start = 410
-        rx_reset = 15
+        aeu_start  = 401
+        uc_start   = 408
+        dc_start   = 408
+        tx_start   = 410
+        rx_reset   = 15
 
         # ##################################################################
         # otros parametros calculados
@@ -145,7 +129,8 @@ class Generate_Experiments():
         date = a.strftime("%Y%m%d")
         print(date)
         path = mainpath+'/' + sExpName +'_' + date
-        
+        self.path_experiment = path
+        print("OBJETO", self.path_experiment)
         if not (os.path.exists(path)):
             print("creating path...",path)
             os.mkdir(path)
@@ -154,8 +139,8 @@ class Generate_Experiments():
         if self.sCode != None:
             phase_code_enable = 1
             aeu_length = tx_start - aeu_start + tx_baud*baud + 1
-            uc_length = tx_start - uc_start + tx_baud*baud + 1
-            dc_length = tx_start - dc_start + tx_baud*baud + 1
+            uc_length  = tx_start - uc_start + tx_baud*baud + 1
+            dc_length  = tx_start - dc_start + tx_baud*baud + 1
             firstrange = ((samp_start-(tx_start+tx_baud/2))*150)
         else:
             phase_code_enable = 0
